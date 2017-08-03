@@ -5,10 +5,13 @@ from .models import Person, Contacts
 class PersonSerializer(serializers.ModelSerializer):
     class Meta:
         model = Person
-        fields = ('name', 'date_of_birth', 'contacts')
+        fields = ('id', 'name', 'date_of_birth')
 
 
 class ContactsSerializer(serializers.ModelSerializer):
+
     class Meta:
         model = Contacts
-        fields = ('email', 'phone', 'fax')
+        fields = ('id', 'email', 'phone', 'fax', 'person')
+
+    #
