@@ -1,7 +1,7 @@
 import datetime
 from django.test import TestCase
 
-from .models import Person, Contacts
+from v1.models import Person, Contacts
 
 
 class PersonModelTest(TestCase):
