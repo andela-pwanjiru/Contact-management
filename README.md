@@ -1,6 +1,6 @@
-###Contact Management API
+### Contact Management API
 
-###Features
+### Features
 Create a person
 Create their contacts
 Update and delete people and contacts.
@@ -9,7 +9,7 @@ Validation of user phone number input
 
 
 
-###Usage:
+### Usage:
 
 Clone the repo: git@github.com:andela-pwanjiru/Contact-management.git
 
@@ -20,6 +20,6 @@ Perform database migrations (python manage.py makemigrations, python manage.py m
 Run the application python manage.py runserver
 
 
-###Testing
+### Testing
 
 To run tests: python manage.py test
